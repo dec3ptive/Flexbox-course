@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Google_homepage</title>
+</head>
+
+<body>
+    <script type = "text/javascript">
+    function focusIt()
+    {
+        var my_search_box = document.getElementById("search-box");
+        my_search_box.focus();
+    }
+    onload = focusIt;
+    </script>
+    <ul id="leftbuttons">
+    <li><a href = "www.google.com/intl/en/about/?fg=1&utm_source=google.com&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+    <li><a href = "store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+    </ul>
+    <ul id="rightbuttons">
+    <li><a href = "mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+    <li><a href = "www.google.com/imghp?hl=en&tab=wi">Images</a></li>
+    <li><input type="button" id="sign-in" value="Sign In" /></li>
+    </ul>
+    <div id="content">
+        <div id="logo">
+            <img src="downloads/logo.png" alt="Google Logo" width="350"/>
+        </div>
+        <div id="search">
+            <input id="search-box" type="text" name="search" />
+        </div>
+        <div id= "buttonsunderbar">
+            <input type="button" class="buttons" id="google_search" value="Google Search" />
+            <input type="button" class="buttons" value="I'm Feeling Lucky" />
+        </div>
+    </div>
+    <footer>
+        <ul id="bottomleftbuttons">
+            <li><a href = "www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+            <li><a href = "www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+            </ul>
+        <ul id="bottomrightbuttons">
+            <li><a href = "policies.google.com/privacy?hl=en&gl=us">Privacy</a></li>
+            <li><a href = "policies.google.com/terms?hl=en&gl=us">Terms</a></li>
+            <li><a href = "">Setting</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
